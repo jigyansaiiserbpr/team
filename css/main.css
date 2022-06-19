@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+html,
+body {
+    font-family: "Raleway",
+        sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
 /* x  */
 body::-webkit-scrollbar {
     width: 7px;
@@ -16,13 +24,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* x  */
-body {
-    font-family: 'Poppins', sans-serif;
-    color: #737789;
-    font-size: 18px;
-    line-height: 36px;
-    font-weight: 400;
-}
 
 .pimg {
     width: 220px;

@@ -1,62 +1,65 @@
-* {
-    box-sizing: border-box;
-}
+@charset "UTF-8";
 
 /* x  */
+.sml {
+    padding-left: 40%;
+}
 
-#icon {
+#topsicon {
+    width: 9%;
+    cursor: pointer;
+}
+
+#topicon {
     width: 6.9%;
+    cursor: pointer;
 }
 
 .barx {
     padding-left: 11.8%;
 }
 
-.up {
-    text-transform: uppercase;
-}
-
 
 /* x  */
 .header {
     overflow: hidden;
-    /* background-color: #f1f1f1; */
     padding: 10px 15px 27px 15px;
-}
-
-.header a {
-    float: left;
-    color: black;
     text-align: center;
-    padding: 12px;
+}
+
+.lnk:hover,
+.lnk {
+    color: #000 !important;
+    background-color: #fff !important;
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
 }
 
-.header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.header a.active {
-    background-color: dodgerblue;
-    color: white;
-}
-
-.header-right {
-    float: right;
-}
-
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
+@media (max-width:992px) and (min-width:601px) {
+    .hidz {
+        display: none !important
     }
+}
 
-    .header-right {
-        float: none;
+@media (min-width:993px) {
+    .hidz {
+        display: none !important
+    }
+}
+
+@media (max-width:600px) {
+    .hids {
+        display: none !important
     }
 }
