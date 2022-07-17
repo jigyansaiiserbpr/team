@@ -210,7 +210,7 @@ body::-webkit-scrollbar-thumb {
 .single::before {
     content: '';
     border-radius: 5px;
-    background-image: linear-gradient(90deg, hotpink 0%, #34495e 100%);
+    background-image: linear-gradient(90deg, #ed3b4b 0%, #ff736d 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -283,7 +283,55 @@ body {
     font-weight: bold;
 }
 
-.fome:hover {
-    color: #000 !important;
-    background-color: #9e9e9e !important
+
+
+/* by Rudra  */
+.core::before {
+    content: '';
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #f04393 0%, #f9c449 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1, 0);
+    transform-origin: bottom;
+    transition: transform 500ms ease;
 }
+
+.board::before {
+    content: '';
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #f7cb6b 0%, #fba980 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1, 0);
+    transform-origin: bottom;
+    transition: transform 500ms ease;
+}
+
+.herobtn{
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+    border: 1.5px solid #f44336;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.herobtn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.btn{
+    font-size: 25px;
+    font-weight: 450;
+}
+
