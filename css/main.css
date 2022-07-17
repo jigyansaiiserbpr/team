@@ -283,8 +283,6 @@ body {
     font-weight: bold;
 }
 
-
-
 /* by Rudra  */
 .core::before {
     content: '';
@@ -314,7 +312,7 @@ body {
     transition: transform 500ms ease;
 }
 
-.herobtn{
+.herobtn {
     display: inline-flex;
     text-decoration: none;
     color: #fff;
@@ -324,14 +322,14 @@ body {
     cursor: pointer;
     border-radius: 10px;
 }
-.herobtn:hover{
+
+.herobtn:hover {
     border: 1px solid #f44336;
     background: #f44336;
     transition: 0.5s;
 }
 
-.btn{
+.btn {
     font-size: 25px;
     font-weight: 450;
 }
-
